@@ -1,0 +1,17 @@
+1.How do you copy by value a composite data type?
+	https://sarveshlal99.medium.com/javascript-how-to-copy-by-value-a-composite-datatype-84d73a9e6788
+
+2.Difference between HTTP1.1 vs HTTP2
+	https://sarveshlal99.medium.com/http-1-1-vs-http-2-fb5677fba9ad
+
+3.why there is a difference in behavior for copying contents in primitive and non primitive type?
+	https://sarveshlal99.medium.com/difference-in-behavior-for-copying-contents-in-primitive-and-non-primitive-type-d5c24765abf7
+
+4. Write a blog about objects and its internal representation in Javascript
+	https://sarveshlal99.medium.com/objects-and-its-internal-representation-8f08d1110c47
+
+5. What is the difference between window, screen, and document in Javascript?
+	https://sarveshlal99.medium.com/what-is-the-difference-between-window-screen-and-document-in-javascript-8d515891e9aa
+
+6.What happens when I type URL in address bar?
+	https://sarveshlal99.medium.com/what-happens-when-i-type-url-in-address-bar-c0f3536b2123
