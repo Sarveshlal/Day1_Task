@@ -3,21 +3,19 @@ function transformEmployeeData(arr) {
     var tranformEmployeeList = [];
     for(var i in array)
     {
-        var str = "";
-        str = str + "{"
+        var obj = {}
         for(var j in array[i])
         {
             for(var k in array[i][j])
             {
                 //console.log(i,j,k)
-                str+=array[i][j][k]+":"+JSON.stringify(array[i][j][1])+",";
+                obj[array[i][j][k]] = array[i][j][1];
                 break;
             }
             //console.log("outside break");
         }
-        str = str + "}"
         //console.log(str);
-        tranformEmployeeList.push(str);
+        tranformEmployeeList.push(obj);
     }
     console.log(tranformEmployeeList)
 }

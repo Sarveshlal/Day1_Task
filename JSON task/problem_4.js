@@ -1,5 +1,7 @@
 var arr = ["GUVI", "I", "am", "a geek"];
 function transformFirstAndLast(arr) {
-    console.log("var object = {"+arr[0]+":"+JSON.stringify(arr[arr.length-1])+"}");
+    var newObject = {};
+    newObject[arr[0]] = arr[arr.length - 1];
+    return newObject;
 }
-transformFirstAndLast(arr);
+console.log(transformFirstAndLast(arr));

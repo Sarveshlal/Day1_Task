@@ -1,17 +1,17 @@
 var array = [["make", "Ford"], ["model", "Mustang"], ["year", 1964]];
 function fromListToObject(arr) {
-    console.log("{")
+    var obj = {};
     for(var i in array)
     {
         for(var j in array)
         {
             if(i>=0 && j < 2)
             {
-                console.log(array[i][j] + ":" + JSON.stringify(array[i][1]));
+                obj[array[i][j]] =  array[i][1];
                 break;
             }
         }
     }
-    console.log("}");
+    return obj;
 }
-fromListToObject(array)
+console.log(fromListToObject(array))
