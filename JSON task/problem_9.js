@@ -9,14 +9,16 @@ var students = [
  ];
  function returnMinors(arr)
 {
+	var array = [];
     for(var i in students)
     {
         var keys = i;
         var val = students[i].name;
         if(students[i].age < 20)
         {
-            console.log(val);
+            array.push(val);
         }
     }
+	return array;
 }
-returnMinors(students);
+console.log(returnMinors(students));
